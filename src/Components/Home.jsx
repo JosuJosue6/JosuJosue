@@ -6,7 +6,6 @@
  */
 
 import React from "react";
-import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
 
 /**
@@ -22,18 +21,14 @@ import PropTypes from "prop-types";
  */
 import image from "../images/josu.png";
 
-const imageAltText = "Josue Ocapana";
 
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
-      <img className="background" src={image} alt="" />
+      <img className="background" src={image} alt="Josu" />
       <div style={{ position: "absolute", top: "15rem", left: "2rem", width: "17rem" }}>
         <h1 id="idName">{name}</h1>
         <h2 id="idTitle">{title}</h2>
-      </div>
-      <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
-        <img src={arrowSvg} style={{ height: "3rem", width: "3rem", display: "none" }} alt={imageAltText} />
       </div>
     </section>
   );

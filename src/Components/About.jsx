@@ -45,8 +45,8 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  'I developed a taste for technology and video games throughout my life, I have met great teachers who have helped me improve in my professional career, in the same way I want to help more people develop a taste for technology, a phrase that I love is: ';
-
+  "I developed a taste for technology and video games throughout my life, I have met great teachers who have helped me improve in my professional career, in the same way I want to help more people develop a taste for technology, a phrase that I love is: ";
+const frase = '"Knowledge belongs to everyone and for everyone"';
 const About = () => {
   return (
     <section className="padding" id="about">
@@ -78,7 +78,7 @@ const About = () => {
         </ul>
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
-        <p style={{ padding: "1rem 3rem 0" }}> &quot;Knowledge belongs to everyone and for everyone&quot;</p>
+        <p style={{ padding: "1rem 3rem 0" }}>{frase} </p>
       </div>
     </section>
   );
