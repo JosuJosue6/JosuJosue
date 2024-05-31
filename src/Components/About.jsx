@@ -16,27 +16,27 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/TO.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a very curious student to learn new technologies.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Web Design",
+  "SQL Database",
+  "Non-relational database",
+  "Java",
+  "Python",
+  "C#",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  'I developed a taste for technology and video games throughout my life, I have met great teachers who have helped me improve in my professional career, in the same way I want to help more people develop a taste for technology, a phrase that I love is: ';
 
 const About = () => {
   return (
@@ -78,6 +78,7 @@ const About = () => {
         </ul>
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p style={{ padding: "1rem 3rem 0" }}> &quot;Knowledge belongs to everyone and for everyone&quot;</p>
       </div>
     </section>
   );
