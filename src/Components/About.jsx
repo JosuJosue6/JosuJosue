@@ -24,7 +24,7 @@ const imageAltText = "background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I am a very curious student to learn new technologies. :) .";
+  "I am a very curious student to learn new technologies. :)";
 
 /**
  * List of some of skills or technologies you work on, are learning,
